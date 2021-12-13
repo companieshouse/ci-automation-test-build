@@ -13,7 +13,8 @@ RUN yum update -y && \
     slf4j \
     unzip \
     zip && \
-    yum clean all
+    yum clean all && \
+    rm -rf /var/cache/yum
 
 RUN mkdir -pv /root/.m2
 
