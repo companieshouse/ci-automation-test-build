@@ -18,4 +18,3 @@ RUN yum update -y && \
 RUN mkdir -pv /root/.m2
 
 COPY resources/configure-maven /usr/local/bin/configure-maven
-COPY resources/configure-maven-test-team /usr/local/bin/configure-maven-test-team
